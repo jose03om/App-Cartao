@@ -159,7 +159,7 @@ class formatacao_tela_emitir_cartao:
     
         senha = self.carregar_senha()
 
-        usuario.send_keys('03483401253')
+        usuario.send_keys('')
         senha_da_pagina.send_keys(senha)
         botao_login.click()
 
@@ -532,7 +532,7 @@ class formatacao_tela_cpf:
     
         senha = self.carregar_senha()
 
-        usuario.send_keys('03483401253')
+        usuario.send_keys('')
         senha_da_pagina.send_keys(senha)
         botao_login.click()
 
